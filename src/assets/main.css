@@ -1,0 +1,18 @@
+/* Importing base styles */
+@import './base.css';
+
+/* Styles for the main app container */
+#app {
+  width: auto;
+  margin: 0 auto; /* Centering horizontally */
+  padding: 0rem; /* Resetting padding */
+  font-weight: normal; /* Setting normal font weight */
+}
+ 
+
+/* Hover styles for links */
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2); /* Adding background color on hover */
+  }
+}

@@ -1,0 +1,51 @@
+/* Color palette */
+:root {
+  --color-background: #0F1031; /* Background color */
+  --color-text: #ffffff; /* Text color */
+  --color-heading: #2c3e50; /* Heading color */
+  --color-link-hover: hsla(160, 100%, 37%, 0.2); /* Link hover color */
+}
+
+/* Global styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Body styles */
+body {
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Sell Your Soul', Caudex, sans-serif; /* Use "Sell Your Soul" font, then Caudex, with fallback to sans-serif */
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+}
+
+/* Link styles */
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: var(--color-link-hover);
+}
+
+/* Additional styles */
+.text-container {
+  font-family: 'Sell Your Soul', Caudex, sans-serif; /* Use "Sell Your Soul" font, then Caudex, with fallback to sans-serif */
+  /* Other styles for .text-container... */
+}
